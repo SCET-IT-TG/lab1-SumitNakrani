@@ -3,13 +3,13 @@ db.students.insertOne({
   name: "Rahul Sharma",
   department: "Computer Science",
   semester: 5,
-  mobile: "9876543210"
+  mobile: 9876543210
 })
 db.students.insertOne({
   name: "Anita Verma",
   department: "Information Technology",
   semester: 3,
-  mobile: "9123456780"
+  mobile: 9123456780
 })
 
 // Exercise 2: Insert Document with Multiple Fields
@@ -18,7 +18,7 @@ db.students.insertOne({
   name: "Mohit Kumar",
   department: "Mechanical",
   semester: 6,
-  mobile: "9988776655"
+  mobile: 9988776655
 })
 
 //Exercise 3: Array of Simple Values
@@ -45,7 +45,7 @@ db.students.insertOne({
   name: "Suresh Patel",
   department: "Civil",
   semester: 4,
-  mobile: "9001122334"
+  mobile: 9001122334
 })
 
 //Exercise 6: Duplicate Primary Key Observation
@@ -55,7 +55,7 @@ db.students.insertOne({
   name: "Ravi Mehta",
   department: "Electrical",
   semester: 2,
-  mobile: "9554433221"
+  mobile: 9554433221
 })
 
 db.students.insertOne({
@@ -63,7 +63,7 @@ db.students.insertOne({
   name: "Amit Jain",
   department: "Electronics",
   semester: 1,
-  mobile: "9112233445"
+  mobile: 9112233445
 })
 
 
@@ -82,4 +82,5 @@ db.subjects.insert({
 db.subjects.insert({
   course_name: "MBA",
   subject_list: ["Marketing", "Finance", "HR"]
+
 })
