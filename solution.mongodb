@@ -1,3 +1,6 @@
+// select database
+db=db.getSiblingDB("examDB");
+
 // Exercise 1
 db.students.insertOne({
   name: "Rahul Sharma",
@@ -84,3 +87,4 @@ db.subjects.insert({
   subject_list: ["Marketing", "Finance", "HR"]
 
 })
+
